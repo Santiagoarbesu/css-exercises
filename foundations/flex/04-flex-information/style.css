@@ -13,6 +13,7 @@ img {
 }
 
 /* do not edit this footer */
+
 .footer {
   position: fixed;
   bottom: 0;
@@ -23,4 +24,32 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+/* My solution */
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.title {
+  margin-bottom: 32px;
+}
+
+.plants {
+  display: flex;
+  gap: 52px;
+}
+
+.plant {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+}
+
+.text {
+  text-align: center;
 }
